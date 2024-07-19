@@ -1,6 +1,6 @@
 import { TennisGame } from "./TennisGame";
 
-export function checkScore(player1Score: number, player2Score: number): string {
+export function checkGameScore(player1Score: number, player2Score: number): string {
     const game = new TennisGame('player1', 'player2')
 
     const highestScore: number = Math.max(player1Score, player2Score);
